@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+  -ms-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+}
+
+body{
+  font-family: arial;
+}
+/*
+.contenedor {
+	width: 900px;
+	background-color: lightgray;
+	margin:0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  
+}
+
+h1{	
+  font-size: 80px;
+  font-family: calibri, sans-serif;
+  text-shadow: 2px 2px 0.5px gray;
+  padding: 10px 0px 50px 20px;
+  margin-top: 150px;
+  background-color: pink;
+}
+
+.boton{
+  border:1px solid black;
+  background-color: white;
+  padding: 12px 10px 12px 10px;
+  margin-right: 10px;
+  margin-left: 10px; 
+  border-radius: 5px;
+}
+.botones{
+  margin-left: 95px;
+}
+*/
+.content{
+  width: 1024px;
+  background-color: black;
+  margin:0 auto; 
+}
+.pic1{
+  width: 120px;
+  border-radius: 50%; 
+  margin-left: 20px;
+}
+a{
+  text-decoration: none;
+}
+.header-site{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.nav-site ul{
+  text-align: center;
+  display: flex;
+}
+.nav-site ul li {
+   padding: 40px;
+   margin-right: 50px;
+   background-color: ;  
+   transition:all 0.3s linear;
+
+}
+.nav-site ul li:hover{
+    background-color: #e1b6ca;
+    font-color:white;
+  }
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.box1 { 
+     width:1024px; 
+     margin:0 auto;
+     background-color: white;
+     text-align: center;
+     padding: 90px;
+     margin-top: 40px;
+     }
+p{
+   margin-bottom: 20px;
+   margin-top: 10px;}
+.box2{
+     width:1024px; 
+     height: 800px;
+     background-color: white;
+     text-align: center;
+     padding:40px;
+     margin-top: 30px;   
+}
+.galeria{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.galeria img{
+  width: 50%;
+}
+.box3{
+     width:1024px; 
+     height: 400px;
+     background-color: white;
+     padding:30px;
+     margin-top: 40px;
+}
+.lista2 li{
+  margin-top: 20px;
+}
+.redes{
+  width: 1024px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #e1b6ca;
+}
